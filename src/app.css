@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Cairo Play";
+  src: url("CairoPlay-VariableFont_slnt,wght.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #020024;
+
+  font-family: "Cairo Play", sans-serif;
+  color: whitesmoke;
+}
+
+h1 {
+  margin: 0;
+}
+
+input[type="password"] {
+  height: 30px;
+}
+
+input[type="text"] {
+  height: 30px;
+}
+
+.gridRows {
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: 5px;
+  align-items: start;
+}
+
+.alignBottom {
+  align-self: end;
+}
+
+button.primary {
+  min-width: 100px;
+  height: 30px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #314179;
+  font-weight: bold;
+  border-radius: 0px;
+  box-shadow: inset 0px 1px 0px 0px #7a8eb9;
+  background: linear-gradient(#637aad, #5972a7);
+  justify-self: end;
+}
+
+button.primary:hover {
+  background: linear-gradient(#5972a7, #637aad);
+}
+
+.error {
+  color: white;
+  font-weight: 650;
+  background-color: rgb(112, 27, 27);
+  padding: 5px;
+}
